@@ -4,9 +4,13 @@ import { useState, useEffect } from "react";
 
 type TopNavProps = {
   invertMenu?: boolean;
+  alwaysBlack?: boolean;
 };
 
-const TopNav: React.FC<TopNavProps> = ({ invertMenu = false }) => {
+const TopNav: React.FC<TopNavProps> = ({
+  invertMenu = false,
+  alwaysBlack = false,
+}) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
 
@@ -27,47 +31,39 @@ const TopNav: React.FC<TopNavProps> = ({ invertMenu = false }) => {
     };
   }, []);
 
-  let getLogo = (scrollBolean: boolean) => {
-    if (scrollBolean) {
-      return (
-        <a href="/">
-          <Image
-            className="w-auto mr-2 my-auto"
-            src="/assets/color_horizontal.png"
-            alt="hero"
-            width={150}
-            height={15}
-          />
-        </a>
-      );
-    }
-    return (
-      <Image
-        className="invert w-auto max-h-6 my-auto"
-        src="/assets/cmuq_horiz_black.png"
-        alt="hero"
-        width={200}
-        height={20}
-      />
-    );
-  };
+  let menu = (
+    <>
+      <a href="/" className="hover:underline mr-4">
+        Home
+      </a>
+      <a href="/gallery" className="hover:underline mr-4">
+        Gallery
+      </a>
+      <a href="#" className="hover:underline mr-4">
+        Submit
+      </a>
+      <a href="/about" className="hover:underline mr-4">
+        About Us
+      </a>
+    </>
+  );
 
   let bg_col = "bg-white";
 
   return (
     <nav
       className={`font-title font-semibold fixed w-full z-50 ${
-         isScrolled || isMenuOpen
-           ? "md:bg-black bg-black text-white md:drop-shadow-2xl"
-           : "md:bg-transparent bg-transparent text-white"
-       }
-      text-white transition-all duration-500 ease-in-out`}
+        isScrolled || isMenuOpen || alwaysBlack
+          ? "md:bg-black bg-black text-white md:drop-shadow-2xl border-white"
+          : "md:bg-transparent bg-transparent text-white border-none"
+      }
+      text-white transition-all duration-500 ease-in-out border-b-2`}
     >
       <div className="max-w-7xl mx-auto px-4 py-8">
         <div className="flex md:justify-between md:items-center justify-start items-start">
           {/* Logo */}
           <h1 className="text-3xl font-title font-extrabold uppercase tracking-wide">
-            Arts & Crafts club
+            <a href="/">Arts & Crafts club</a>
           </h1>
 
           {/* Menu Links */}
@@ -76,18 +72,7 @@ const TopNav: React.FC<TopNavProps> = ({ invertMenu = false }) => {
               isMenuOpen ? "flex" : "hidden"
             }`}
           >
-            <a href="#" className="hover:underline mr-4">
-              Home
-            </a>
-            <a href="#" className="hover:underline mr-4">
-              Gallery
-            </a>
-            <a href="#" className="hover:underline mr-4">
-              Submit
-            </a>
-            <a href="#" className="hover:underline mr-4">
-              About Us
-            </a>
+            {menu}
           </div>
 
           {/* Hamburger Menu Button */}
@@ -104,23 +89,12 @@ const TopNav: React.FC<TopNavProps> = ({ invertMenu = false }) => {
         </div>
 
         <div
-            className={`md:hidden transition uppercase md:capitalize justify-center flex-row text-base py-2  ${
-              isMenuOpen ? "flex" : "hidden"
-            }`}
-          >
-            <a href="#" className="hover:underline mr-8">
-              Home
-            </a>
-            <a href="#" className="hover:underline mr-8">
-              Gallery
-            </a>
-            <a href="#" className="hover:underline mr-8">
-              Submit
-            </a>
-            <a href="#" className="hover:underline">
-              About Us
-            </a>
-          </div>
+          className={`md:hidden transition uppercase md:capitalize justify-center flex-row text-base py-2  ${
+            isMenuOpen ? "flex" : "hidden"
+          }`}
+        >
+          {menu}
+        </div>
       </div>
     </nav>
   );

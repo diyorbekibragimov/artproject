@@ -7,7 +7,7 @@ const HomePage: FC = () => {
       <header className="w-full relative flex flex-col justify-between text-center text-white">
         <div className="absolute inset-0 bg-hero bg-cover blur-sm"></div>
 
-        <TopNav/>
+        <TopNav />
         <div className="w-full z-10 mt-24 mb-24 px-10 tracking-tight">
           <h1 className="text-4xl md:text-[110px]/[100px] text-start font-extrabold font-extra-condensed uppercase">
             Beneath the rubble, dreams persist:
@@ -70,7 +70,7 @@ const HomePage: FC = () => {
               artist from Gaza and help preserve their creative legacy.
               Let&apos;s honor their lives and dreams together.
             </p>
-            <p className="mt-5 cursor-pointer font-extra-condensed underline">
+            <p className="mt-5 text-lg cursor-pointer font-extra-condensed underline">
               <a className="">click here to submit to the online gallery</a>
             </p>
           </div>
@@ -80,42 +80,14 @@ const HomePage: FC = () => {
               dream of having a space to showcase their creativity despite the
               ongoing genocide. Each piece is a tribute to their lives, echoing
               their dreams and resilience. It stands as a beacon of hope and a
-              call for justice in the face of adversity.
-              This gallery honors Gaza&apos;s martyred artists, fulfilling their
-              dream of having a space to showcase their creativity despite the
-              ongoing genocide. Each piece is a tribute to their lives, echoing
-              their dreams and resilience. It stands as a beacon of hope and a
-              call for justice in the face of adversity.              This gallery honors Gaza&apos;s martyred artists, fulfilling their
-              dream of having a space to showcase their creativity despite the
-              ongoing genocide. Each piece is a tribute to their lives, echoing
-              their dreams and resilience. It stands as a beacon of hope and a
-              call for justice in the face of adversity.              This gallery honors Gaza&apos;s martyred artists, fulfilling their
-              dream of having a space to showcase their creativity despite the
-              ongoing genocide. Each piece is a tribute to their lives, echoing
-              their dreams and resilience. It stands as a beacon of hope and a
-              call for justice in the face of adversity.              This gallery honors Gaza&apos;s martyred artists, fulfilling their
-              dream of having a space to showcase their creativity despite the
-              ongoing genocide. Each piece is a tribute to their lives, echoing
-              their dreams and resilience. It stands as a beacon of hope and a
-              call for justice in the face of adversity.              This gallery honors Gaza&apos;s martyred artists, fulfilling their
-              dream of having a space to showcase their creativity despite the
-              ongoing genocide. Each piece is a tribute to their lives, echoing
-              their dreams and resilience. It stands as a beacon of hope and a
-              call for justice in the face of adversity.              This gallery honors Gaza&apos;s martyred artists, fulfilling their
-              dream of having a space to showcase their creativity despite the
-              ongoing genocide. Each piece is a tribute to their lives, echoing
-              their dreams and resilience. It stands as a beacon of hope and a
-              call for justice in the face of adversity.              This gallery honors Gaza&apos;s martyred artists, fulfilling their
-              dream of having a space to showcase their creativity despite the
-              ongoing genocide. Each piece is a tribute to their lives, echoing
-              their dreams and resilience. It stands as a beacon of hope and a
-              call for justice in the face of adversity.              This gallery honors Gaza&apos;s martyred artists, fulfilling their
-              dream of having a space to showcase their creativity despite the
-              ongoing genocide. Each piece is a tribute to their lives, echoing
-              their dreams and resilience. It stands as a beacon of hope and a
-              call for justice in the face of adversity.
+              call for justice in the face of adversity. This gallery honors
+              Gaza&apos;s martyred artists, fulfilling their dream of having a
+              space to showcase their creativity despite the ongoing genocide.
+              Each piece is a tribute to their lives, echoing their dreams and
+              resilience. It stands as a beacon of hope and a call for justice
+              in the face of adversity.
             </p>
-            <p className="mt-5 cursor-pointer font-extra-condensed underline">
+            <p className="mt-5 text-lg cursor-pointer font-extra-condensed underline">
               <a className="">click here to see the online gallery</a>
             </p>
           </div>

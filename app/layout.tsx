@@ -29,8 +29,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={`${saira.variable} relative ${inter.variable} ${saira_ex.variable} ${inter.className}`}>{children}</body>
+    <html lang="en" className=" min-h-100 ">
+      <body className={`${saira.variable}relative ${inter.variable} ${saira_ex.variable} ${inter.className}`}>{children}</body>
     </html>
   );
 }
