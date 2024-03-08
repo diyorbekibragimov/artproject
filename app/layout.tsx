@@ -30,7 +30,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${saira.variable} ${inter.variable} ${saira_ex.variable} ${inter.className}`}>{children}</body>
+      <body className={`${saira.variable} relative ${inter.variable} ${saira_ex.variable} ${inter.className}`}>{children}</body>
     </html>
   );
 }
