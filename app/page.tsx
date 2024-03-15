@@ -22,12 +22,12 @@ const HomePage: FC = () => {
           <div className="font-normal font-body tracking-wide border-x-2 px-10">
             <p className="mt-4">
               Your participation matters! Contribute to our online gallery
-              dedicated to Gaza&apos;s martyred artists. Click here to submit an
+              dedicated to Gaza&apos;s martyred artists. Click below to submit an
               artist from Gaza and help preserve their creative legacy.
               Let&apos;s honor their lives and dreams together.
             </p>
             <p className="mt-5 text-lg cursor-pointer font-extra-condensed underline">
-              <a className="">click here to submit to the online gallery</a>
+              <a href="/submit" className="">click here to submit to the online gallery</a>
             </p>
           </div>
           <div className="font-normal  font-body tracking-wide border-x-2 px-10 pb-4">
