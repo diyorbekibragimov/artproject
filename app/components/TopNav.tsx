@@ -60,9 +60,9 @@ const TopNav: React.FC<TopNavProps> = ({
       text-white transition-all duration-500 ease-in-out border-b-2`}
     >
       <div className="max-w-7xl mx-auto px-4 py-8">
-        <div className="flex md:justify-between md:items-center justify-start items-start">
+        <div className="flex justify-between md:items-center items-center">
           {/* Logo */}
-          <h1 className="text-3xl font-title font-extrabold uppercase tracking-wide">
+          <h1 className="text-xl md:text-3xl font-title font-extrabold uppercase tracking-wide">
             <a href="/">Arts & Crafts club</a>
           </h1>
 

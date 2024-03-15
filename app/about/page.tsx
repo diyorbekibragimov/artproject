@@ -8,7 +8,9 @@ const AboutUs = () => (
       <div className="flex mt-14 flex-wrap items-center justify-start md:border-l-2 md:pl-10 p-10 pt-20 border-white">
         <div className="w-full md:w-3/5 z-10">
           <div className="font-title">
-            <h2 className="md:text-8xl text-6xl font-bold mb-2">About</h2>
+            <h2 className="md:text-8xl text-6xl font-bold mb-2 drop-shadow-lg">
+              About
+            </h2>
             <h2 className="text-white md:text-8xl text-6xl font-bold mb-2">
               Us
             </h2>
