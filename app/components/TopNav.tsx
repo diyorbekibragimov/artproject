@@ -33,7 +33,7 @@ const TopNav: React.FC<TopNavProps> = ({
 
   let menu = (
     <>
-      <a href="/" className="hover:underline">
+      <a href="/" className="hover:underline mr-4 md:mr-0">
         Home
       </a>
       <a href="/gallery" className="hover:underline mr-4">

@@ -50,7 +50,7 @@ const Submit = () => {
       <TopNav alwaysBlack />
       <div className="container mx-auto py-12 p-6 md:p-0 md:py-12">
         <div className="flex flex-col mt-14 flex-wrap">
-          <div className="text-6xl mt-4 text-white font-title font-bold">
+          <div className="text-4xl md:text-6xl mt-4 text-white font-title font-bold">
             Submissions
           </div>
           <div className="flex md:flex-row flex-col w-full">
