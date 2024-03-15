@@ -24,7 +24,7 @@ const SixthGallery = () => {
         </div>
         <div className="w-full md:w-2/5 text-center flex flex-col items-start p-2 md:p-10">
           <Image
-            src="/seven-1.webp"
+            src="/sixth-1.webp"
             alt=""
             className="my-1"
             width="500"
@@ -50,7 +50,7 @@ const SixthGallery = () => {
             Psalm 137.
           </div>
           <Image
-            src="/seven-2.webp"
+            src="/sixth-2.webp"
             alt=""
             className="my-1"
             width="500"
