@@ -5,14 +5,6 @@ import Mail from "nodemailer/lib/mailer";
 export async function POST(request: NextRequest) {
   const { email, name, message } = await request.json();
 
-  console.log({
-    service: "gmail",
-    auth: {
-      user: process.env.MY_EMAIL,
-      pass: process.env.MY_PASSWORD,
-    },
-  });
-  
   const transport = nodemailer.createTransport({
     service: "gmail",
     auth: {
@@ -33,6 +25,7 @@ export async function POST(request: NextRequest) {
     new Promise<string>((resolve, reject) => {
       transport.sendMail(mailOptions, function (err) {
         if (!err) {
+          console.log(mailOptions);
           resolve("Email sent");
         } else {
           reject(err.message);
