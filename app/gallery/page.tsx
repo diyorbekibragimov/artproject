@@ -5,6 +5,10 @@ import FirstGallery from "./galleries/first-gallery";
 import Second from "./galleries/second";
 import SecondGallery1 from "./galleries/second-gallery";
 import SecondGallery2 from "./galleries/second-gallery-2";
+import Third from "./galleries/third";
+import ThirdGallery1 from "./galleries/third-gallery";
+import Fourth from "./galleries/fourth";
+import FourthGallery from "./galleries/fourth-gallery";
 
 const AboutUs = () => (
   <div className="text-white relative h-min-full h-full min-h-dvh bg-black">
@@ -16,6 +20,10 @@ const AboutUs = () => (
         <Second/>
         <SecondGallery1/>
         <SecondGallery2/>
+        <Third/>
+        <ThirdGallery1/>
+        <Fourth/>
+        <FourthGallery/>
       </div>
     </div>
   </div>
