@@ -7,7 +7,7 @@ const Fifth = () => {
       <div className="flex-col relative md:flex-row flex w-full items-center">
         <div className="w-full md:w-2/5">
           <Image
-            src="/fifth-main.webp"
+            src="/fifth-main.jpg"
             alt=""
             width="500"
             height="500"
@@ -19,7 +19,7 @@ const Fifth = () => {
             Motaz azaiza
           </div>
           <p className="text-white mt-4 font-bold text-center text-3xl md:text-6xl text-title md:-ml-40">
-            “My photos traveled the world but my feet couldn’t touch my
+            “My photos traveled the world but my feet couldn&apos;t touch my
             Homeland.”
           </p>
           <p className="text-white text-xl mt-2 text-title md:px-30">

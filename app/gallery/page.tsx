@@ -11,6 +11,12 @@ import Fourth from "./galleries/fourth";
 import FourthGallery from "./galleries/fourth-gallery";
 import Fifth from "./galleries/fifth";
 import FifthGallery from "./galleries/fifth-gallery";
+import Sixth from "./galleries/sixth";
+import SixthGallery from "./galleries/sixth-gallery";
+import SevenGallery from "./galleries/seven-gallery";
+import Seven from "./galleries/seven";
+import Eigth from "./galleries/eight";
+import EightGallery from "./galleries/eight-gallery";
 
 const AboutUs = () => (
   <div className="text-white relative h-min-full h-full min-h-dvh bg-black">
@@ -28,6 +34,12 @@ const AboutUs = () => (
         <FourthGallery/>
         <Fifth/>
         <FifthGallery/>
+        <Sixth/>
+        <SixthGallery/>
+        <Seven/>
+        <SevenGallery/>
+        <Eigth/>
+        <EightGallery/>
       </div>
     </div>
   </div>
