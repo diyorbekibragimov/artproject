@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 
-const FourthGallery = () => {
+const FifthGallery = () => {
   return (
     <div className="py-5 md:py-20 min-h-full h-full">
       <div className="w-full p-10 md:p-0 flex flex-col md:flex-row flex-wrap items-center justify-start">
@@ -12,7 +12,7 @@ const FourthGallery = () => {
               style={{ writingMode: "vertical-lr" }}
               className="text-white bg-black text-6xl fond-bold uppercase tracking-wider font-extra-condensed"
             >
-              Mohammed AL-HAWAJRI
+              Motaz Azaiza
             </div>
             <div
               style={{ writingMode: "vertical-lr" }}
@@ -24,7 +24,7 @@ const FourthGallery = () => {
         </div>
         <div className="w-full md:w-2/5 text-center flex flex-col items-start p-2 md:p-10">
           <Image
-            src="/fourth-1.png"
+            src="/fifth-1.webp"
             alt=""
             className="my-1"
             width="500"
@@ -32,29 +32,32 @@ const FourthGallery = () => {
             objectFit="cover"
           />
           <div className="text-white text-normal mt-4 text-justify">
-            The artist handcrafted slippers using a real-life cactus, amongst
-            many other cactus-utilized creations in his project “Cactus Borders”
-            (2010). His aim was to represent Palestinians&apos; harsh living
-            conditions due to the oppressive and genocidal zionist regime. He
-            states that “it&apos;s impossible for anyone to use these slippers
-            to move from one place to another, because of the thorns”.
+            Motaz Azaiza captured these photos about a year ago in Dair Al Balah
+            refugee camp. He posted them to Instagram with the caption: “You may
+            notice that it&apos;s all about clouds ☁️, yes you&apos;re right but
+            it&apos;s also about people with the clouds. As the main thing in my
+            photography is people, I always try to merge them with another
+            elements like nature for example.”
           </div>
         </div>
         <div className="w-full md:w-2/5 flex flex-col p-2 md:p-10 text-justify">
           <div className="text-white text-normal mt-4">
-            The artist created the below acrylic on canvas painting in September
-            2023, a month before the violent escalation of Israel&apos;s act of
-            genocide against Palestinians. In February 2024, the artist reposted
-            this artwork on his Instagram after risking rescuing it under the
-            rubble of his office and home after intense bombing. He states that
-            after October, the painting feels like a premonition to the
-            escalation of Israel&apos;s war crimes: “Unfortunately I did not
-            know that this future was very close and that the fire burned us
-            until nothing was left. The fire engulfs everything, human stone
-            tree, everything is engulfed in the fire of the war”.
+            Motaz Azaiza has encountered a young girl stuck under the rubble of
+            her home after an Israeli airstrike. It was difficult to see her and
+            confirm whether or not she was alive, but with a low shutter speed
+            on his camera, Azaiza was able to capture her. He said, “It&apos;s
+            not possible to see it with your own eyes. So I put the camera, I
+            flipped the screen, and was seeing her through my camera.” “It&apos;s
+            painful to be in her place. It&apos;s painful to see her,” Aziza says.
+            “She&apos;s so lucky she survived. What about people who, there was
+            no hole for me to see them and they [were] still stuck under the
+            rubble and they passed with no help.” Azaiza&apos;s piece was
+            featured in the Time&apos;s top ten photos of 2023 although he
+            wishes it was “a picture of the beauty of Gaza not a painful picture
+            from Gaza.”
           </div>
           <Image
-            src="/fourth-2.jpg"
+            src="/fifth-2.webp"
             alt=""
             className="my-1"
             width="600"
@@ -67,4 +70,4 @@ const FourthGallery = () => {
   );
 };
 
-export default FourthGallery;
+export default FifthGallery;
