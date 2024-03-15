@@ -66,7 +66,7 @@ const HomePage: FC = () => {
             <div className="w-[40%] font-normal font-body tracking-wide border-r-2 pr-10">
               <p className="mt-4 text-sm">
                 Your participation matters! Contribute to our online gallery
-                dedicated to Gaza&apos;s martyred artists. Click here to submit
+                dedicated to Gaza&apos;s martyred artists. Click below to submit
                 an artist from Gaza and help preserve their creative legacy.
                 Let&apos;s honor their lives and dreams together.
               </p>
@@ -84,7 +84,7 @@ const HomePage: FC = () => {
           <div className="flex flex-row flex-grow border-white font-extra-condensed text-white px-10">
             <div className="w-[40%] pb-auto font-normal font-body tracking-wide border-r-2 pr-10">
               <p className="mt-5 text-2xl cursor-pointer font-extra-condensed hover:underline">
-                <a className="">click here to submit to the online gallery</a>
+                <a href="/submit" className="">click here to submit to the online gallery</a>
               </p>
             </div>
             <div className="w-[60%] mb-auto pb-24 font-normal font-body tracking-wide px-10">

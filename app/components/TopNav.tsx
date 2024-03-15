@@ -39,7 +39,7 @@ const TopNav: React.FC<TopNavProps> = ({
       <a href="/gallery" className="hover:underline mr-4">
         Gallery
       </a>
-      <a href="#" className="hover:underline mr-4">
+      <a href="/submit" className="hover:underline mr-4">
         Submit
       </a>
       <a href="/about" className="hover:underline mr-4">
