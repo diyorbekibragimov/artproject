@@ -88,7 +88,7 @@ const HomePage: FC = () => {
               in the face of adversity.
             </p>
             <p className="mt-5 text-lg cursor-pointer font-extra-condensed underline">
-              <a className="">click here to see the online gallery</a>
+              <a className="underline" href="/gallery">click here to see the online gallery</a>
             </p>
           </div>
         </div>

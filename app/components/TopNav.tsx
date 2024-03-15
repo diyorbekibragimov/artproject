@@ -76,10 +76,10 @@ const TopNav: React.FC<TopNavProps> = ({
           </div>
 
           {/* Hamburger Menu Button */}
-          <div className="md:hidden my-4">
+          <div className="md:hidden my-2 ml-2">
             <button onClick={toggleMenu}>
               {/* Hamburger Icon */}
-              <div className="space-y-2 mr-10">
+              <div className="space-y-2 ml-1 md:mr-10">
                 <span className={`block w-8 h-0.5 ${bg_col}`}></span>
                 <span className={`block w-8 h-0.5 ${bg_col}`}></span>
                 <span className={`block w-8 h-0.5 ${bg_col}`}></span>
