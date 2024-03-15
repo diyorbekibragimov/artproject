@@ -31,7 +31,7 @@ const SevenGallery = () => {
             height="800"
             objectFit="cover"
           />
-          <div className="text-white text-normal mt-4 text-center">
+          <div className="text-white text-normal font-poppins mt-4 text-center">
             The painting shows Zagout in a self-portrait, as a young, smiling
             Palestinian woman dressed in a black thobe with tatreez embroidery,
             and draped in a white scarf, standing in front of several colorful
@@ -39,7 +39,7 @@ const SevenGallery = () => {
           </div>
         </div>
         <div className="w-full md:w-2/5 flex flex-col p-2 md:p-10 text-center">
-          <div className="text-white text-normal mt-4">
+          <div className="text-white text-normal font-poppins mt-4">
             Trees and historic buildings occupy a painting of Jerusalem and the
             iconic Dome of the Rock.
           </div>

@@ -18,11 +18,11 @@ const Third = () => {
           <div className="uppercase bg-black md:py-4 px-10 tracking-wide md:-ml-20">
             HIBA ABU NADA
           </div>
-          <p className="text-white mt-4 font-bold text-center text-3xl md:text-6xl text-title md:-ml-40">
+          <p className="text-white mt-4 font-bold text-center text-3xl md:text-6xl font-title md:-ml-40">
             “When the people feel silenced the writer has a voice. When that
             voice is silent who will speak for the people?”
           </p>
-          <p className="text-white text-xl mt-2 text-title md:px-30">
+          <p className="text-white text-xl mt-2 font-title md:px-30">
             Hiba Kamal Abu Nada (1991-2023) was a renowned Palestinian poet,
             writer, and nutritionist. At 32, she was murdered by an Israeli
             airstrike in October 2023. She was born in Saudi Arabia in 1991 as

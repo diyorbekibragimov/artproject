@@ -31,14 +31,14 @@ const SixthGallery = () => {
             height="800"
             objectFit="cover"
           />
-          <div className="text-white text-normal mt-4 text-justify">
+          <div className="text-white text-normal font-poppins mt-4 text-justify">
             The poem “If I Must Die” was written by Alareer just weeks before
             his martyrdom. His poetic last will and testament had gained a lot
             of attention since and had touched the hearts of many.
           </div>
         </div>
         <div className="w-full md:w-2/5 flex flex-col p-2 md:p-10 text-justify">
-          <div className="text-white text-normal mt-4">
+          <div className="text-white text-normal font-poppins mt-4">
             “Drenched” was the last poem written by Alareer before his
             martyrdom. In “Drenched,” Alareer leans on the mythopoetics of the
             Hebrew Bible, specifically on Psalm 137 (“By the rivers of Babylon

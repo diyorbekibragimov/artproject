@@ -24,7 +24,7 @@ const ThirdGallery1 = () => {
         </div>
         <div className="w-4/5 flex flex-col">
           <div className="flex flex-col bg-[#7d7d7d] bg-opacity-40 p-2 md:px-10 md:py-4">
-            <div className="text-start text-normal">
+            <div className="text-start text-normal font-poppins">
               <p className="font-bold text-lg">Our Loneliness</p>
               <p>Hiba Abu Nada</p>
               <p>(trans. Salma Harland)</p>

@@ -31,7 +31,7 @@ const FifthGallery = () => {
             height="500"
             objectFit="cover"
           />
-          <div className="text-white text-normal mt-4 text-justify">
+          <div className="text-white text-normal font-poppins mt-4 text-justify">
             Motaz Azaiza captured these photos about a year ago in Dair Al Balah
             refugee camp. He posted them to Instagram with the caption: “You may
             notice that it&apos;s all about clouds ☁️, yes you&apos;re right but
@@ -41,7 +41,7 @@ const FifthGallery = () => {
           </div>
         </div>
         <div className="w-full md:w-2/5 flex flex-col p-2 md:p-10 text-justify">
-          <div className="text-white text-normal mt-4">
+          <div className="text-white text-normal font-poppins mt-4">
             Motaz Azaiza has encountered a young girl stuck under the rubble of
             her home after an Israeli airstrike. It was difficult to see her and
             confirm whether or not she was alive, but with a low shutter speed

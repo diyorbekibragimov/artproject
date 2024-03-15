@@ -26,10 +26,10 @@ const First = () => {
         <div className="w-full p-10 md:p-0 md:w-3/5">
 
           <div className="uppercase bg-black md:py-4 px-10 tracking-wide md:-ml-20">mohammed sami</div>
-          <p className="text-white mt-4 font-bold text-center text-3xl md:text-6xl text-title md:-ml-48">
+          <p className="text-white mt-4 font-bold text-center text-3xl md:text-6xl font-title md:-ml-48">
             “He loved life, he loved Gaza and he loved his story.”
           </p>
-          <p className="text-white text-xl mt-2 text-title md:px-30">
+          <p className="text-white text-xl mt-2 font-title md:px-30">
             Mohammed Sami Qreqe was a 24-year-old Palestinian artist whose life
             was tragically cut short in the midst of genocide. Born and raised
             in Gaza, Mohammed sought solace and purpose amidst the chaos that

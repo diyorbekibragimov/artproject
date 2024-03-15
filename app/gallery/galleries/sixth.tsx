@@ -18,12 +18,12 @@ const Sixth = () => {
           <div className="uppercase bg-black md:py-4 px-10 tracking-wide md:-ml-20">
             Refaat alareer
           </div>
-          <p className="text-white mt-4 font-bold text-center text-3xl md:text-6xl text-title md:-ml-40">
+          <p className="text-white mt-4 font-bold text-center text-3xl md:text-6xl font-title md:-ml-40">
             “Sometimes a homeland becomes a tale. We love the story because it
             is about our homeland and we love our homeland even more because of
             the story.”
           </p>
-          <p className="text-white text-xl mt-2 text-title md:px-30">
+          <p className="text-white text-xl mt-2 font-title md:px-30">
             Refaat Alareer was a Palestinian writer, poet, professor, and
             activist from the Gaza Strip. Alareer earned a BA in English in 2001
             from the Islamic University of Gaza and an MA from University

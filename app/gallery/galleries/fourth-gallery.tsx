@@ -31,7 +31,7 @@ const FourthGallery = () => {
             height="500"
             objectFit="cover"
           />
-          <div className="text-white text-normal mt-4 text-justify">
+          <div className="text-white text-normal font-poppins mt-4 text-justify">
             The artist handcrafted slippers using a real-life cactus, amongst
             many other cactus-utilized creations in his project “Cactus Borders”
             (2010). His aim was to represent Palestinians&apos; harsh living
@@ -41,7 +41,7 @@ const FourthGallery = () => {
           </div>
         </div>
         <div className="w-full md:w-2/5 flex flex-col p-2 md:p-10 text-justify">
-          <div className="text-white text-normal mt-4">
+          <div className="text-white text-normal font-poppins mt-4">
             The artist created the below acrylic on canvas painting in September
             2023, a month before the violent escalation of Israel&apos;s act of
             genocide against Palestinians. In February 2024, the artist reposted

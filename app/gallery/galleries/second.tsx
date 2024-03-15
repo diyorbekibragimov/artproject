@@ -27,7 +27,7 @@ const Second = () => {
           <div className="uppercase bg-black md:py-4 px-10 tracking-wide md:-ml-20">
             Omar Abu shawish
           </div>
-          <p className="text-white text-xl mt-8 md:mt-24 text-title md:px-30">
+          <p className="text-white text-xl mt-8 md:mt-24 font-title md:px-30">
             Palestinian poet and activist Omar Fares Abu Shawish tragically died
             on October 7 during the Gaza bombardment. Renowned for youth
             advocacy, he co-founded organizations and earned international

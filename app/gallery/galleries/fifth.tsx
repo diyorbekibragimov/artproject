@@ -18,11 +18,11 @@ const Fifth = () => {
           <div className="uppercase bg-black md:py-4 px-10 tracking-wide md:-ml-20">
             Motaz azaiza
           </div>
-          <p className="text-white mt-4 font-bold text-center text-3xl md:text-6xl text-title md:-ml-40">
+          <p className="text-white mt-4 font-bold text-center text-3xl md:text-6xl font-title md:-ml-40">
             “My photos traveled the world but my feet couldn&apos;t touch my
             Homeland.”
           </p>
-          <p className="text-white text-xl mt-2 text-title md:px-30">
+          <p className="text-white text-xl mt-2 font-title md:px-30">
             Motaz Azaiza is one of the most well known journalists documenting
             the ongoing genocide in Gaza. Prior to this, he was focused on
             photography and documenting his life in Gaza. Azaiza graduated in

@@ -31,13 +31,13 @@ const FirstGallery = () => {
             height="500"
             objectFit="cover"
           />
-          <div className="text-white text-normal mt-4 text-justify">
+          <div className="text-white text-normal font-poppins mt-4 font-poppins text-justify">
             Above is one of his submissions for “Violet exhibition” held by the
             TAMER organization on 30/04/2019.
           </div>
         </div>
-        <div className="w-full md:w-2/5 flex flex-col text-justify p-2 md:p-10">
-          <div className="text-white text-normal mt-4">
+        <div className="w-full md:w-2/5 flex flex-col font-poppins text-justify p-2 md:p-10">
+          <div className="text-white text-normal font-poppins mt-4">
             On the day Mohammed painted this piece, there were Israeli air raids
             on Gaza City that flattened three buildings and resulted in the
             deaths of at least 42 people (Uras & Siddiqui, 2021). He used the

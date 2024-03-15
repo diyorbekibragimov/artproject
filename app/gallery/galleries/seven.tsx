@@ -27,11 +27,11 @@ const Seven = () => {
           <div className="uppercase bg-black md:py-4 px-10 tracking-wide md:-ml-20">
             Heba zagout
           </div>
-          <p className="text-white mt-4 font-bold text-center text-3xl md:text-6xl text-title md:-ml-20">
+          <p className="text-white mt-4 font-bold text-center text-3xl md:text-6xl font-title md:-ml-20">
             “She dedicated her life to her children and students to help them
             cope with the harsh living conditions in Gaza through art”
           </p>
-          <p className="text-white text-xl mt-2 text-title md:px-30">
+          <p className="text-white text-xl mt-2 font-title md:px-30">
             Heba Zagout, a 39-year-old Palestinian artist, wife, and mother of
             4, had her life unfairply taken from her amidst the ongoing genocide
             in Gaza alongside 2 of her 4 children, Adam and Mahmoud. Zagout

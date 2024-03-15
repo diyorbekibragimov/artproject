@@ -31,7 +31,7 @@ const EightGallery = () => {
             height="500"
             objectFit="cover"
           />
-          <div className="text-white text-normal mt-4 text-center">
+          <div className="text-white text-normal font-poppins mt-4 text-center">
             Above is a painting Inspired by the Palestinian novel, &apos;Jaffa
             prepares the morning coffee&apos; by Anwar Hamed. The novel talks
             about life in the city of Jaffa before the Nakba occurred, and how
@@ -40,7 +40,7 @@ const EightGallery = () => {
           </div>
         </div>
         <div className="w-full md:w-2/5 flex flex-col p-2 md:p-10 text-center">
-          <div className="text-white text-normal mt-4">
+          <div className="text-white text-normal font-poppins mt-4">
             Below is one of Nesma&apos;s artworks which she titled “The wheat
             lady”. She took inspiration from the women of Palestine.
           </div>

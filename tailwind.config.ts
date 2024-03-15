@@ -10,7 +10,8 @@ const config: Config = {
     fontFamily: {
       'title': ['var(--font-saira-condensed)'],
       'body': ['var(--font-inter)'],
-      'extra-condensed': ['var(--font-saira-extra-condensed)']
+      'extra-condensed': ['var(--font-saira-extra-condensed)'],
+      'poppins': ['var(--font-poppins)']
     },
     extend: {
       backgroundImage: {

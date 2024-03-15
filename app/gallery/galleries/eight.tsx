@@ -15,7 +15,7 @@ const Eigth = () => {
           />
         </div>
         <div className="w-full p-10 md:p-0 md:w-3/5">
-          <p className="text-white font-bold text-center text-3xl md:text-6xl text-title md:-ml-20">
+          <p className="text-white font-bold text-center text-3xl md:text-6xl font-title md:-ml-20">
             “ A very well-respected role model and was loved by everyone who
             knew her. She was often described as being big-hearted, gentle, and
             kind. ”
@@ -23,7 +23,7 @@ const Eigth = () => {
           <div className="uppercase bg-black md:py-4 px-10 tracking-wide md:-ml-20 mt-4">
             nesma abu sha&apos;ira
           </div>
-          <p className="text-white text-xl mt-2 text-title md:px-30">
+          <p className="text-white text-xl mt-2 font-title md:px-30">
             MNesma Abu Shaira, a 36-year-old Palestinian artist, wife, and
             mother of 2, was brutally killed in an Israeli air strike alongside
             her family members, including one of her daughters, Habiba, on

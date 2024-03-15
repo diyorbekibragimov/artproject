@@ -33,7 +33,7 @@ const SecondGallery1 = () => {
           />
         </div>
         <div className="w-full md:w-2/5 text-center flex flex-col p-2 md:p-2">
-          <div className="text-white text-normal mt-4 uppercase font-title">
+          <div className="text-white text-normal font-poppins mt-4 uppercase font-title">
             <p className="font-bold mb-1">Abstract: </p>
             <p>
               Between the sieges of love and death, Gaza stands, surrounded by

@@ -18,11 +18,11 @@ const Fourth = () => {
           <div className="uppercase bg-black md:py-4 px-10 tracking-wide md:-ml-20">
             mohammed al-hawajri
           </div>
-          <p className="text-white mt-4 font-bold text-center text-3xl md:text-6xl text-title md:-ml-40">
+          <p className="text-white mt-4 font-bold text-center text-3xl md:text-6xl font-title md:-ml-40">
             “An artist needs freedom, which is the lung from which he breathes
             and which is the main engine for his ideas.”
           </p>
-          <p className="text-white text-xl mt-2 text-title md:px-30">
+          <p className="text-white text-xl mt-2 font-title md:px-30">
             Mohammed Al Hawajri (1976 -) is a Palestinian multimedia artist born
             and raised in Al-Bureij refugee camp in Gaza. He founded the
             Eltiqa&apos;Group for Contemporary Art in the Gaza Strip, which is a
