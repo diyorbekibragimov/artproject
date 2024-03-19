@@ -21,6 +21,8 @@ import Nine from "./galleries/nine";
 import NineGallery from "./galleries/nine-gallery";
 import TenGallery from "./galleries/ten-gallery";
 import Ten from "./galleries/ten";
+import ElevenGallery from "./galleries/evelen-gallery";
+import Eleven from "./galleries/eleven";
 
 const AboutUs = () => (
   <div className="text-white relative h-min-full h-full min-h-dvh bg-black">
@@ -48,6 +50,8 @@ const AboutUs = () => (
         <NineGallery/>
         <Ten/>
         <TenGallery/>
+        <Eleven/>
+        <ElevenGallery/>
       </div>
     </div>
   </div>
