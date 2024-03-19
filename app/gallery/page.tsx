@@ -17,6 +17,8 @@ import SevenGallery from "./galleries/seven-gallery";
 import Seven from "./galleries/seven";
 import Eigth from "./galleries/eight";
 import EightGallery from "./galleries/eight-gallery";
+import Nine from "./galleries/nine";
+import NineGallery from "./galleries/nine-gallery";
 
 const AboutUs = () => (
   <div className="text-white relative h-min-full h-full min-h-dvh bg-black">
@@ -40,6 +42,8 @@ const AboutUs = () => (
         <SevenGallery/>
         <Eigth/>
         <EightGallery/>
+        <Nine/>
+        <NineGallery/>
       </div>
     </div>
   </div>
