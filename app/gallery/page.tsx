@@ -23,6 +23,9 @@ import TenGallery from "./galleries/ten-gallery";
 import Ten from "./galleries/ten";
 import ElevenGallery from "./galleries/evelen-gallery";
 import Eleven from "./galleries/eleven";
+import Twelve from "./galleries/twelve";
+import TwelveGallery2 from "./galleries/twelve-gallery-2";
+import TwelveGallery1 from "./galleries/twelve-gallery-1";
 
 const AboutUs = () => (
   <div className="text-white relative h-min-full h-full min-h-dvh bg-black">
@@ -52,6 +55,9 @@ const AboutUs = () => (
         <TenGallery/>
         <Eleven/>
         <ElevenGallery/>
+        <Twelve/>
+        <TwelveGallery1/>
+        <TwelveGallery2/>
       </div>
     </div>
   </div>
