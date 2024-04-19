@@ -7,7 +7,7 @@ const Fifth = () => {
       <div className="flex-col relative md:flex-row flex w-full items-center">
         <div className="w-full md:w-2/5">
           <Image
-            src="/fifth-main.jpg"
+            src="/motaz.jpg"
             alt=""
             width="500"
             height="500"
