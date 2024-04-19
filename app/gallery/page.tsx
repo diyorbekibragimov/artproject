@@ -26,6 +26,7 @@ import Eleven from "./galleries/eleven";
 import Twelve from "./galleries/twelve";
 import TwelveGallery2 from "./galleries/twelve-gallery-2";
 import TwelveGallery1 from "./galleries/twelve-gallery-1";
+import Sensitive from "../components/Sensitive";
 
 const AboutUs = () => (
   <div className="text-white relative h-min-full h-full min-h-dvh bg-black">
@@ -41,6 +42,7 @@ const AboutUs = () => (
         <ThirdGallery1/>
         <Fourth/>
         <FourthGallery/>
+        <Sensitive nextUrl="/gallery/#alareerG" />
         <Fifth/>
         <FifthGallery/>
         <Sixth/>

@@ -15,7 +15,7 @@ const Sixth = () => {
           />
         </div>
         <div className="w-full p-10 md:p-0 md:w-3/5">
-          <div className="uppercase bg-black md:py-4 px-10 tracking-wide md:-ml-20">
+          <div className="uppercase bg-black md:py-4 px-10 tracking-wide md:-ml-20" id="alareerG">
             Refaat alareer
           </div>
           <p className="text-white mt-4 font-bold text-center text-3xl md:text-6xl font-title md:-ml-40">

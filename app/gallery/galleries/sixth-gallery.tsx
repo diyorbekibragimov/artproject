@@ -22,7 +22,7 @@ const SixthGallery = () => {
             </div>
           </div>
         </div>
-        <div className="w-full md:w-2/5 text-center flex flex-col items-start p-2 md:p-10">
+        <div className="w-full md:w-2/5 text-center flex flex-col items-start p-2 md:p-10" id="alareer">
           <Image
             src="/sixth-1.webp"
             alt=""
