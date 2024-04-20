@@ -10,7 +10,7 @@ const SecondGallery2 = () => {
             {/* Custom style for vertical writing mode */}
             <div
               style={{ writingMode: "vertical-lr" }}
-              className="text-white bg-black text-6xl fond-bold uppercase tracking-wider font-extra-condensed"
+              className="text-white bg-black text-6xl font-bold uppercase tracking-wider font-extra-condensed"
             >
               OMAR ABU SHAWISH
             </div>
