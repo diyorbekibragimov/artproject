@@ -5,7 +5,7 @@ const Sixth = () => {
   return (
     <div className="py-5 md:py-20 min-h-full h-full">
       <div className="flex-col relative md:flex-row flex w-full items-center">
-        <div className="w-full md:w-2/5 relative">
+        <div className="w-full md:w-2/5">
           <Image
             src="/sixth-main.webp"
             alt=""
@@ -13,23 +13,17 @@ const Sixth = () => {
             height="500"
             objectFit="cover"
           />
-          <div
-            className="uppercase hidden md:block bg-black md:py-4 px-10 tracking-wide absolute top-20 -right-10 z-index"
-            id="alareerG"
-          >
-            Refaat alareer
-          </div>
         </div>
         <div className="w-full p-10 md:p-0 md:w-3/5">
-          <div className="flex flex-col items-center justify-center">
-            <div className="uppercase bg-black md:py-4 px-10 tracking-wide md:-ml-20 block md:hidden">
-              mohammed sami
-            </div>
-            <p className="text-white mt-4 font-bold text-center text-3xl w-1/2 font-title md:-ml-40">
+          <div className="">
+            <p className="text-white mt-4 font-bold text-center text-2xl md:text-6xl font-title md:-ml-40">
               “Sometimes a homeland becomes a tale. We love the story because it
               is about our homeland and we love our homeland even more because
               of the story.”
             </p>
+            <div className="uppercase bg-black md:py-4 px-10 tracking-wide md:-ml-20">
+              Refaat Alareer
+            </div>
             <p className="text-white text-xl mt-2 font-title md:px-30">
               Refaat Alareer was a Palestinian writer, poet, professor, and
               activist from the Gaza Strip. Alareer earned a BA in English in
