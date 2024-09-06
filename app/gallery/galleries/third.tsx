@@ -15,25 +15,31 @@ const Third = () => {
           />
         </div>
         <div className="w-full p-10 md:p-0 md:w-3/5">
-          <div className="uppercase bg-black md:py-4 px-10 tracking-wide md:-ml-20">
-            HIBA ABU NADA
+          <div className="">
+            <div className="uppercase bg-black md:py-4 px-10 md:-ml-20">
+              Refaat Alareer
+            </div>
+            <p className="text-white mt-4 font-bold text-2xl md:text-5xl font-title" style={{lineHeight: 1.5}}>
+              “Sometimes a homeland becomes a tale. We love the story because it
+              is about our homeland and we love our homeland even more because
+              of the story.”
+            </p>
+            <p className="text-white text-xl mt-2 font-title md:px-30">
+              Refaat Alareer was a Palestinian writer, poet, professor, and
+              activist from the Gaza Strip. Alareer earned a BA in English in
+              2001 from the Islamic University of Gaza and an MA from University
+              College London in 2007. He earned a PhD in English Literature at
+              the Universiti Putra Malaysia in 2017 with a dissertation on John
+              Donne. He taught literature and creative writing at the Islamic
+              University of Gaza and co-founded the organization We Are Not
+              Numbers, which matched experienced authors with young writers in
+              Gaza, and promoted the power of storytelling as a means of
+              Palestinian resistance. (Wikipedia) One of his students, Lina
+              Alsharif, emphasized that “His support to his students, especially
+              me, was continuous. He believed in my lousy poems, he even taught
+              one [of] them. He believed in all of his students.”
+            </p>
           </div>
-          <p className="text-white mt-4 font-bold text-center text-3xl md:text-6xl font-title md:-ml-40">
-            “When the people feel silenced the writer has a voice. When that
-            voice is silent who will speak for the people?”
-          </p>
-          <p className="text-white text-xl mt-2 font-title md:px-30">
-            Hiba Kamal Abu Nada (1991-2023) was a renowned Palestinian poet,
-            writer, and nutritionist. At 32, she was murdered by an Israeli
-            airstrike in October 2023. She was born in Saudi Arabia in 1991 as
-            her family was violently displaced from their homes in Beit Jirja (a
-            village Northeast of Gaza) in the first Nakba in 1948. Among her
-            literary works is a 2017 novel titled “الأكسجين ليس للموتى” (“Oxygen
-            is not for the dead”) which won second place in the Sharjah Award
-            for Arab Creativity in 2017. She also won first place in a short
-            story contest. Hiba&apos;s other works are poems, one of which was
-            written in October, titled “I Grant You Refuge”.
-          </p>
         </div>
       </div>
     </div>

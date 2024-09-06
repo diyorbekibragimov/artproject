@@ -1,10 +1,10 @@
 import React from "react";
 import Image from "next/image";
 
-const SecondGallery1 = () => {
+const SecondGallery = () => {
   return (
     <div className="py-5 md:py-20 min-h-full h-full">
-      <div className="w-full p-10 md:p-0 flex flex-col md:flex-row flex-wrap items-center justify-start">
+      <div className="w-full p-2 md:p-0 flex flex-col md:flex-row flex-wrap items-center justify-start">
         <div className="w-full md:w-1/5 md:block hidden">
           <div className="transform flex flex-row-reverse justify-center rotate-180 text-center">
             {/* Custom style for vertical writing mode */}
@@ -12,56 +12,77 @@ const SecondGallery1 = () => {
               style={{ writingMode: "vertical-lr" }}
               className="text-white bg-black text-6xl font-bold uppercase tracking-wider font-extra-condensed"
             >
-              OMAR ABU SHAWISH
+              HIBA ABU NADA
             </div>
             <div
               style={{ writingMode: "vertical-lr" }}
               className="text-white bg-black text-4xl capitalize tracking-widest font-semibold font-title"
             >
-              Work
+              Poetry
             </div>
           </div>
         </div>
-        <div className="w-full md:w-2/5 text-center flex flex-col p-2 md:p-10">
-          <Image
-            src="/second-g-1.jpg"
-            alt=""
-            className="my-1"
-            width="500"
-            height="500"
-            objectFit="cover"
-          />
-        </div>
-        <div className="w-full md:w-2/5 text-center flex flex-col p-2 md:p-2">
-          <div className="text-white text-normal font-poppins mt-4 uppercase font-title">
-            <p className="font-bold mb-1">Abstract: </p>
-            <p>
-              Between the sieges of love and death, Gaza stands, surrounded by
-              tanks and barbed wires, its resilient roots uprooted, women baking
-              fire for the little ones, waiting for dawn in moistened tents.The
-              scent of despair hangs heavy as weary souls navigate absurd
-              spaces, faces blurred with grim expressions, fearing the
-              sniper&apos;s bullet controlling their fate.An ambulance worker
-              waits for dark moments, while a cart owner offers weary bodies a
-              ride, under the watchful eye of a monstrous bird.The city, once a
-              symbol of heritage and culture, now bears witness to repeated
-              deaths and renewed resilience in the face of barriers and
-              fatigue.In this wounded city, sweet moments are tinged with pain,
-              reminding us of past mistakes.Confronting personal and collective
-              history reveals the small details shaping our lives, while the
-              city itself becomes a metaphor for the ebb and flow of time,
-              connecting souls in confinement.In the Monday market, a tableau of
-              diverse generations meets, with children clutching wishes and
-              mothers asking bitter questions about the price of fruits, amidst
-              laughter and helplessness.
-            </p>
-            <p className="mt-3">References:</p>
-            <p>
-              جرير, & شاويش. (2016, January 1). على-قيد-الموت.
-              <a href="https://jarirreader.com/book/7338/على-قيد-الموت">
-                link
-              </a>
-            </p>
+        <div className="w-4/5 flex flex-col">
+          <div className="flex flex-col bg-[#7d7d7d] bg-opacity-40 p-2 md:px-10 md:py-4">
+            <div className="text-start text-normal font-poppins">
+              <p className="font-bold text-lg">Our Loneliness</p>
+              <p>Hiba Abu Nada</p>
+              <p>(trans. Salma Harland)</p>
+            </div>
+            <div className="text-center md:text-start mt-2 flex flex-row flex-wrap items-start justify-between">
+              <div className="md:w-1/3 w-full">
+                <p>How alone it was,</p>
+                <p>our loneliness,</p>
+                <p>when they won their wars. </p>
+                <p className="mt-2">Only you were left behind,</p>
+                <p>naked,</p>
+                <p>before this loneliness.</p>
+                <p>Darwish,</p>
+                <p>no poetry could ever bring it back:</p>
+                <p>what the lonely one has lost.</p>
+              </div>
+              <div className="md:w-1/3 w-full">
+                <p>It&apos;s another age of ignorance,</p>
+                <p> our loneliness. </p>
+                <p>Damned be that which divided us </p>
+                <p>then stands united at your funeral.</p>{" "}
+                <p className="mt-2">
+                  Now your land is auctioned and the world&apos;s
+                </p>
+                <p>a free market.</p>
+              </div>
+              <div className="md:w-1/3 w-full">
+                <p>It&apos;s a barbaric era, </p>
+                <p>our loneliness,</p>
+                <p>one when none will stand up for us.</p>
+
+                <p className="mt-2">So, my country, wipe away your poems,</p>
+                <p>the old and the new,</p>
+                <p>and your tears,</p>
+                <p>and pull yourself together.</p>
+              </div>
+            </div>
+          </div>
+          <div className="mt-2">
+            The writer, Hiba Abu Nada, recited this poem in an interview in
+            April 2023 (available on youtube). Hiba states that this poem is
+            about the loneliness of a Palestinian as they are battling and
+            facing a violent settler colony all alone. There is repetition of
+            the word “our loneliness”. The loneliness is born of the grief of
+            loss, loss of life that even poetry cannot bring back: “no poetry
+            could ever bring it back: what the lonely one has lost”. The
+            loneliness is also born of, as she has stated in the interview, the
+            loneliness of being alone in fighting your own annihilation against
+            the genocidal enemy, Israel: “our loneliness, one where none will
+            stand up for us”. In the interview, she states that a writer is one
+            who writes to voice the ideas and thoughts of the people. She
+            believes that writers are the voice of a society. The interviewer
+            states that because of writers voicing out what the general public
+            thinks, there is a consensus in ideas and so people do not feel so
+            alone in their thoughts anymore. She agreed to that thought, which
+            was perhaps also her aim in this poem: to acknowledge the loneliness
+            that an entire people share, so that they could feel less alone in
+            that feeling.
           </div>
         </div>
       </div>
@@ -69,4 +90,4 @@ const SecondGallery1 = () => {
   );
 };
 
-export default SecondGallery1;
+export default SecondGallery;

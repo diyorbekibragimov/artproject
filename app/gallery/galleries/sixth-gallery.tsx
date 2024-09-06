@@ -12,7 +12,7 @@ const SixthGallery = () => {
               style={{ writingMode: "vertical-lr" }}
               className="text-white bg-black text-6xl font-bold uppercase tracking-wider font-extra-condensed"
             >
-              Refaat alareer
+              Basel ELmaqosui
             </div>
             <div
               style={{ writingMode: "vertical-lr" }}
@@ -22,39 +22,59 @@ const SixthGallery = () => {
             </div>
           </div>
         </div>
-        <div className="w-full md:w-2/5 text-center flex flex-col items-start p-2 md:p-10" id="alareer">
+        <div className="w-full md:w-4/5 text-center flex flex-wrap gap-4 p-2 md:p-10">
           <Image
-            src="/sixth-1.webp"
+            className="flex-1"
+            src="/sixth-1.jpg"
             alt=""
-            className="my-1"
-            width="500"
-            height="800"
+            width="300"
+            height="300"
+            loading="lazy"
             objectFit="cover"
           />
-          <div className="text-white text-normal font-poppins mt-4 text-justify">
-            The poem “If I Must Die” was written by Alareer just weeks before
-            his martyrdom. His poetic last will and testament had gained a lot
-            of attention since and had touched the hearts of many.
-          </div>
-        </div>
-        <div className="w-full md:w-2/5 flex flex-col p-2 md:p-10 text-justify">
-          <div className="text-white text-normal font-poppins mt-4">
-            “Drenched” was the last poem written by Alareer before his
-            martyrdom. In “Drenched,” Alareer leans on the mythopoetics of the
-            Hebrew Bible, specifically on Psalm 137 (“By the rivers of Babylon
-            …”), to conjure up a climate of internal displacement. In this inapt
-            analogy, the Gazans become the Jews of Babylonian captivity, and
-            today&apos;s Israelis the new Edomites. By implication, Alareer hopes
-            that the poetry he composes is seen as running counter to the stark
-            refusal of ancient Israelites to perform before their captors in
-            Psalm 137.
-          </div>
           <Image
-            src="/sixth-2.webp"
+            className="flex-1"
+            src="/sixth-2.jpg"
             alt=""
-            className="my-1"
-            width="500"
-            height="500"
+            width="300"
+            height="300"
+            loading="lazy"
+            objectFit="cover"
+          />
+          <Image
+            className="flex-1"
+            src="/sixth-3.jpg"
+            alt=""
+            width="300"
+            height="300"
+            loading="lazy"
+            objectFit="cover"
+          />
+          <Image
+            className="flex-1"
+            src="/sixth-4.jpg"
+            alt=""
+            width="300"
+            height="300"
+            loading="lazy"
+            objectFit="cover"
+          />
+          <Image
+            className="flex-1"
+            src="/sixth-5.jpg"
+            alt=""
+            width="300"
+            height="300"
+            loading="lazy"
+            objectFit="cover"
+          />
+          <Image
+            className="flex-1"
+            src="/sixth-6.jpg"
+            alt=""
+            width="300"
+            height="300"
+            loading="lazy"
             objectFit="cover"
           />
         </div>

@@ -12,7 +12,7 @@ const FifthGallery = () => {
               style={{ writingMode: "vertical-lr" }}
               className="text-white bg-black text-6xl font-bold uppercase tracking-wider font-extra-condensed"
             >
-              Motaz Azaiza
+              Nesma abu sha&apos;ra
             </div>
             <div
               style={{ writingMode: "vertical-lr" }}
@@ -22,48 +22,23 @@ const FifthGallery = () => {
             </div>
           </div>
         </div>
-        <div className="w-full md:w-2/5 text-center flex flex-col items-start p-2 md:p-10">
+        <div className="w-full md:w-2/5 text-center flex flex-col p-2 md:p-10">
           <Image
-            src="/fifth-1.webp"
+            src="/fifth-1.png"
             alt=""
             className="my-1"
             width="500"
             height="500"
             objectFit="cover"
           />
-          <div className="text-white text-normal font-poppins mt-4 text-justify">
-            Motaz Azaiza captured these photos about a year ago in Dair Al Balah
-            refugee camp. He posted them to Instagram with the caption: “You may
-            notice that it&apos;s all about clouds ☁️, yes you&apos;re right but
-            it&apos;s also about people with the clouds. As the main thing in my
-            photography is people, I always try to merge them with another
-            elements like nature for example.”
-          </div>
         </div>
-        <div className="w-full md:w-2/5 flex flex-col p-2 md:p-10 text-justify">
-          <div className="text-white text-normal font-poppins mt-4">
-            Motaz Azaiza has encountered a young girl stuck under the rubble of
-            her home after an Israeli airstrike. It was difficult to see her and
-            confirm whether or not she was alive, but with a low shutter speed
-            on his camera, Azaiza was able to capture her. He said, “It&apos;s
-            not possible to see it with your own eyes. So I put the camera, I
-            flipped the screen, and was seeing her through my camera.” “It&apos;s
-            painful to be in her place. It&apos;s painful to see her,” Aziza says.
-            “She&apos;s so lucky she survived. What about people who, there was
-            no hole for me to see them and they [were] still stuck under the
-            rubble and they passed with no help.” Azaiza&apos;s piece was
-            featured in the Time&apos;s top ten photos of 2023 although he
-            wishes it was “a picture of the beauty of Gaza not a painful picture
-            from Gaza.”
+        <div className="w-full md:w-2/5 flex flex-col p-2 md:p-2">
+          <div className="text-white text-normal font-poppins mt-4 font-title">
+            <p>
+            The artwork is part of her most recent project, in which she was creating illustrations for children's books. 
+            She shared her excitement about this project on her Instagram page, @nesma_abu_shaira
+            </p>
           </div>
-          <Image
-            src="/fifth-2.webp"
-            alt=""
-            className="my-1"
-            width="600"
-            height="300"
-            objectFit="cover"
-          />
         </div>
       </div>
     </div>

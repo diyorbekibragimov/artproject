@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 
-const SevenGallery = () => {
+const SeventhGallery = () => {
   return (
     <div className="py-5 md:py-20 min-h-full h-full">
       <div className="w-full p-10 md:p-0 flex flex-col md:flex-row flex-wrap items-center justify-start">
@@ -12,7 +12,7 @@ const SevenGallery = () => {
               style={{ writingMode: "vertical-lr" }}
               className="text-white bg-black text-6xl font-bold uppercase tracking-wider font-extra-condensed"
             >
-              Heba zagout
+              youssef dawas
             </div>
             <div
               style={{ writingMode: "vertical-lr" }}
@@ -22,39 +22,22 @@ const SevenGallery = () => {
             </div>
           </div>
         </div>
-        <div className="w-full md:w-2/5 text-center flex flex-col items-start p-2 md:p-10">
-          <Image
-            src="/seven-1.webp"
-            alt=""
-            className="my-1"
-            width="500"
-            height="800"
-            objectFit="cover"
-          />
-          <div className="text-white text-normal font-poppins mt-4 text-center">
-            The painting shows Zagout in a self-portrait, as a young, smiling
-            Palestinian woman dressed in a black thobe with tatreez embroidery,
-            and draped in a white scarf, standing in front of several colorful
-            scenes from a village.
+        <div className="w-full md:w-4/5 text-center flex flex-col items-start p-2 md:p-10">
+          <div className="text-white font-title text-normal mt-4 text-center">
+            Yousef wrote a <a href="/dawas-writing" className="bold underline">writing</a> piece after the war on Gaza in 2021 where his
+            family farmland was destroyed. He recounts the destruction of his
+            family&apos;s orchard by an Israeli missile strike in May 2022. The
+            orchard trees produced olives, oranges, clementines, loquat, guavas,
+            lemons and pomegranates, and its loss as he described destroyed an
+            important piece of his family&apos;s past, history, and heritage.
+          <p className="mt-2">
+            Access it <a href="/dawas-writing" className="bold underline">here</a>.
+          </p>
           </div>
-        </div>
-        <div className="w-full md:w-2/5 flex flex-col p-2 md:p-10 text-center">
-          <div className="text-white text-normal font-poppins mt-4">
-            Trees and historic buildings occupy a painting of Jerusalem and the
-            iconic Dome of the Rock.
-          </div>
-          <Image
-            src="/seven-2.webp"
-            alt=""
-            className="my-1"
-            width="500"
-            height="500"
-            objectFit="cover"
-          />
         </div>
       </div>
     </div>
   );
 };
 
-export default SevenGallery;
+export default SeventhGallery;
