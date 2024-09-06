@@ -11,15 +11,15 @@ import FourthGallery from "./galleries/fourth-gallery";
 import Fifth from "./galleries/fifth";
 import FifthGallery from "./galleries/fifth-gallery";
 import Sixth from "./galleries/sixth";
-import SixthGallery from "./galleries/sixth-gallery";
+import SixthGallery1 from "./galleries/sixth-gallery-1";
+import SixthGallery2 from "./galleries/sixth-gallery-2";
 import Seven from "./galleries/seven";
 import SeventhGallery from "./galleries/seven-gallery";
 import Eigth from "./galleries/eigth";
 import EigthGallery1 from "./galleries/eigth-gallery-1";
 import EigthGallery2 from "./galleries/eigth-gallery-2";
 import Ninth from "./galleries/ninth";
-import NinthGallery1 from "./galleries/nine-gallery-1";
-import NinthGallery2 from "./galleries/nine-gallery-2";
+import NinthGallery from "./galleries/nine-gallery";
 import TenGallery1 from "./galleries/ten-gallery-1";
 import TenGallery2 from "./galleries/ten-gallery-2";
 import Ten from "./galleries/ten";
@@ -47,15 +47,15 @@ const AboutUs = () => (
         <Fifth/>
         <FifthGallery/>
         <Sixth/>
-        <SixthGallery/>
+        <SixthGallery1/>
+        <SixthGallery2/>
         <Seven/>
         <SeventhGallery/>
         <Eigth/>
         <EigthGallery1/>
         <EigthGallery2/>
         <Ninth/>
-        <NinthGallery1/>
-        <NinthGallery2/>
+        <NinthGallery/>
         <Ten/>
         <TenGallery1/>
         <TenGallery2/>

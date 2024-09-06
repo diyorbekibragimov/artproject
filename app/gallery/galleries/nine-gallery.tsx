@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 
-const NinthGallery1 = () => {
+const NinthGallery = () => {
   return (
     <div className="py-5 md:py-20 min-h-full h-full">
       <div className="w-full p-10 md:p-0 flex flex-col md:flex-row flex-wrap items-center justify-start">
@@ -63,4 +63,4 @@ const NinthGallery1 = () => {
   );
 };
 
-export default NinthGallery1;
+export default NinthGallery;

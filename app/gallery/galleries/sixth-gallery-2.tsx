@@ -12,7 +12,7 @@ const SixthGallery2 = () => {
                             style={{ writingMode: "vertical-lr" }}
                             className="text-white bg-black text-6xl font-bold uppercase tracking-wider font-extra-condensed"
                         >
-                            Ahmed Al Daalsa
+                            Basel ELmaqosui
                         </div>
                         <div
                             style={{ writingMode: "vertical-lr" }}
