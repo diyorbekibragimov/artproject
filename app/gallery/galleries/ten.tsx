@@ -21,8 +21,8 @@ const Ten = () => {
           <p className="text-white text-xl mt-2 font-title md:px-30">
           Halima Abdel Karim Al-Kahlot, a 29-year-old artist from Gaza City, tragically lost her life in an Israeli airstrike on October 29. 
           Renowned for her innovative approach, Al-Kahlot used unconventional materials like brooms and cardboard to address pressing social issues. 
-          Her passion for art, evident from her studies at Al-Aqsa University, led her to create impactful works such as "Pending," which symbolized inaccessible medical treatment by replacing broom bristles with prescription packages, and "Fragments of the City," where cardboard helicopters and knives represented the violence faced by Gazans. 
-          Al-Kahlot's art highlighted critical human rights issues, including access to life and medical care, and her legacy endures through her powerful contributions to social justice and the art world.
+          Her passion for art, evident from her studies at Al-Aqsa University, led her to create impactful works such as &quot;Pending,&quot; which symbolized inaccessible medical treatment by replacing broom bristles with prescription packages, and &quot;Fragments of the City,&quot; where cardboard helicopters and knives represented the violence faced by Gazans. 
+          Al-Kahlot&lsquo;s art highlighted critical human rights issues, including access to life and medical care, and her legacy endures through her powerful contributions to social justice and the art world.
           </p>
         </div>
       </div>

@@ -25,8 +25,8 @@ const Second = () => {
           Hiba Kamal Abu Nada (1991-2023) was a renowned Palestinian poet, writer, and nutritionist. 
           At 32, she was murdered by an Israeli airstrike in October 2023. 
           She was born in Saudi Arabia in 1991 as her family was violently displaced from their homes in Beit Jirja (a village Northeast of Gaza) in the first Nakba in 1948. 
-          Among her literary works is a 2017 novel titled "الأكسجين ليس للموتى" (“Oxygen is not for the dead”) which won second place in the Sharjah Award for Arab Creativity in 2017. She also won first place in a short story contest. 
-          Hiba's other works are poems, one of which was written in October, titled “I Grant You Refuge”. 
+          Among her literary works is a 2017 novel titled &quot;الأكسجين ليس للموتى&quot; (&quot;Oxygen is not for the dead&quot;) which won second place in the Sharjah Award for Arab Creativity in 2017. She also won first place in a short story contest. 
+          Hiba&lsquo;s other works are poems, one of which was written in October, titled &quot;I Grant You Refuge&quot;. 
           </p>
         </div>
       </div>

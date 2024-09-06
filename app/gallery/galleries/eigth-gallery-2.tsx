@@ -26,7 +26,7 @@ const EigthGallery2 = () => {
                     <div className="text-white font-title text-normal mt-4">
                         Maisara Baroud, a Palestinian artist, uses his art to address themes of war, immigration, political prisoners, and violence, exploring grief, sadness, and hope. 
                         Despite facing immense challenges, including the destruction of his studio and frequent relocations for safety, he continues to document the fear and devastation around him. 
-                        Baroud participates in exhibitions globally, recently creating a piece for an exhibit in the Netherlands, inspired by his series of daily drawings titled "I Am Still Alive."
+                        Baroud participates in exhibitions globally, recently creating a piece for an exhibit in the Netherlands, inspired by his series of daily drawings titled &quot;I Am Still Alive.&quot;
                         <br /><br />
                         His art is characterized by a stark black-and-white dichotomy, emphasizing human suffering and humanitarian issues. 
                         In an interview, he reflects on the impact of war on his life and art, describing how tragedy shapes his work. 

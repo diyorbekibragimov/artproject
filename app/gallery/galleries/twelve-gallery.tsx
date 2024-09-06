@@ -35,7 +35,7 @@ const FirstGallery = () => {
         <div className="w-full md:w-2/5 flex flex-col p-2 md:p-2">
           <div className="text-white text-normal font-poppins mt-4 font-title">
             <p>
-            "My Beloved Gaza" is an evocative artwork depicting a girl in a traditional kufiya, with her hand on her head. This gesture conveys a deep sense of reflection and emotional connection. The kufiya represents Palestinian identity and solidarity, while the girl's posture symbolizes contemplation or mourning for her homeland. The piece reflects the artist's profound love and empathy for Gaza, portraying the city as a cherished and integral part of their identity.
+            &quot;My Beloved Gaza&quot; is an evocative artwork depicting a girl in a traditional kufiya, with her hand on her head. This gesture conveys a deep sense of reflection and emotional connection. The kufiya represents Palestinian identity and solidarity, while the girl&lsquo;s posture symbolizes contemplation or mourning for her homeland. The piece reflects the artist&lsquo;s profound love and empathy for Gaza, portraying the city as a cherished and integral part of their identity.
             </p>
           </div>
         </div>

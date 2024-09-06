@@ -36,7 +36,7 @@ const FirstGallery = () => {
           <div className="text-white text-normal font-poppins mt-4 font-title">
             <p>
               This artwork is one of the pieces created by Mohamed Sami for the Gaza International Airport Gallery. 
-              The gallery sheds light on the period of constructing Gaza's International Airport, detailing the planning, 
+              The gallery sheds light on the period of constructing Gaza&lsquo;s International Airport, detailing the planning, 
               construction, and daily lives of the workers involved. The piece emphasizes the importance of fostering a shared space between 
               those who worked at the airport and experienced its development, and those who lived in a reality where it does not exist.
             </p>

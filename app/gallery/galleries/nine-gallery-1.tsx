@@ -53,7 +53,7 @@ const NinthGallery1 = () => {
         </div>
         <div className="w-full md:w-1/5">
           <p>
-          Ahmed Al Daalsa's recent artwork serves as a poignant reflection of the devastation surrounding him, capturing his relentless pursuit to envision a better life for himself and his family. 
+          Ahmed Al Daalsa&lsquo;s recent artwork serves as a poignant reflection of the devastation surrounding him, capturing his relentless pursuit to envision a better life for himself and his family. 
           Through his art, he grapples with the emotional turmoil of displacement, using creativity as a powerful outlet for coping with these challenges. 
           Each piece he creates embodies his resilience and determination to preserve hope amidst adversity.
           </p>

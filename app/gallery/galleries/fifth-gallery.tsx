@@ -35,7 +35,7 @@ const FifthGallery = () => {
         <div className="w-full md:w-2/5 flex flex-col p-2 md:p-2">
           <div className="text-white text-normal font-poppins mt-4 font-title">
             <p>
-            The artwork is part of her most recent project, in which she was creating illustrations for children's books. 
+            The artwork is part of her most recent project, in which she was creating illustrations for children&lsquo;s books. 
             She shared her excitement about this project on her Instagram page, @nesma_abu_shaira
             </p>
           </div>

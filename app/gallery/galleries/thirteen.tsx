@@ -19,7 +19,7 @@ const Twelve = () => {
           Dena Matter
           </div>
           <p className="text-white text-xl mt-2 font-title md:px-30">
-          Dena Mattar, who was born in Gaza in 1985, graduated in 2007 with a bachelor's degree in art education from Al Aqsa University in Gaza. Mattar worked on multiple projects with European artists and took part in local workshops and exhibitions in Gaza in association with the French Cultural Centre and the A.M. Qattan Foundation. Additionally, her art was on show in Geneva and France at international exhibitions.
+          Dena Mattar, who was born in Gaza in 1985, graduated in 2007 with a bachelor&lsquo;s degree in art education from Al Aqsa University in Gaza. Mattar worked on multiple projects with European artists and took part in local workshops and exhibitions in Gaza in association with the French Cultural Centre and the A.M. Qattan Foundation. Additionally, her art was on show in Geneva and France at international exhibitions.
           </p>
         </div>
       </div>
